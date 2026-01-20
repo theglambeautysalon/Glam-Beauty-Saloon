@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Glam Beauty Saloon</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff5f8;
+}
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+header .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+header .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+h2 {
+    color: #c2185b;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.btn {
+    background: #c2185b;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+    border-radius: 12px;
+}
+footer {
+    background: #2b2b2b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="banner.jpg" alt="The Glam Beauty Saloon">
+    <div class="overlay"></div>
+    <div class="text">
+        <h1>The Glam Beauty Saloon</h1>
+        <p>Hair | Beauty | Makeup (Ladies Only)</p>
+    </div>
+</header>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Hair Cut & Styling</div>
+        <div class="card">Facial & Cleanup</div>
+        <div class="card">Makeup</div>
+        <div class="card">Hair Spa</div>
+        <div class="card">Waxing</div>
+        <div class="card">Bridal Services</div>
+    </div>
+</section>
+
+<section>
+    <h2>Book Appointment</h2>
+    <p><strong>📞 9910804240</strong></p>
+    <p>SCO 13, World Street, Sector 79, Faridabad</p>
+    <a class="btn" href="https://wa.me/919910804240" target="_blank">
+        💬 Book on WhatsApp
+    </a>
+</section>
+
+<section>
+    <h2>Find Us on Google Map</h2>
+    <iframe 
+        src="https://www.google.com/maps?q=Omaxe%20World%20Street%20Sector%2079%20Faridabad&output=embed">
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2026 The Glam Beauty Saloon</p>
+    <p>Email: theglambeautysalon08@gmail.com</p>
+</footer>
+
+</body>
+</html>
